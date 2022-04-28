@@ -1,0 +1,80 @@
+<resources>
+
+    <string name="app_name">즐겁게 홈트레이닝</string>
+    <string name="nav_record">기록보기</string>
+    <string name="nav_option">설정</string>
+    <string name="appbar_name">즐겁게홈트레이닝</string>
+
+    <string-array name="breaktime_entries">
+        <item>5초</item>
+        <item>10초</item>
+        <item>15초</item>
+        <item>20초</item>
+        <item>25초</item>
+        <item>30초</item>
+        <item>35초</item>
+        <item>40초</item>
+        <item>45초</item>
+        <item>50초</item>
+        <item>55초</item>
+        <item>60초</item>
+        <item>65초</item>
+        <item>70초</item>
+        <item>75초</item>
+        <item>80초</item>
+        <item>85초</item>
+        <item>90초</item>
+        <item>95초</item>
+        <item>100초</item>
+        <item>105초</item>
+        <item>110초</item>
+        <item>115초</item>
+        <item>120초</item>
+    </string-array>
+
+    <string-array name="breaktime_values">
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+        <item>35</item>
+        <item>40</item>
+        <item>45</item>
+        <item>50</item>
+        <item>55</item>
+        <item>60</item>
+        <item>65</item>
+        <item>70</item>
+        <item>75</item>
+        <item>80</item>
+        <item>85</item>
+        <item>90</item>
+        <item>95</item>
+        <item>100</item>
+        <item>105</item>
+        <item>110</item>
+        <item>115</item>
+        <item>120</item>
+    </string-array>
+
+    <string-array name="ready_entries">
+        <item>5초</item>
+        <item>10초</item>
+        <item>15초</item>
+        <item>20초</item>
+        <item>25초</item>
+        <item>30초</item>
+    </string-array>
+
+    <string-array name="ready_values">
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+    </string-array>
+
+</resources>

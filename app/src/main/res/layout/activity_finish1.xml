@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".finish1"
+    android:orientation="vertical">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="KEEP GOING!"
+            android:textColor="#C394FB"
+            android:textSize="50sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/finish_img"
+            android:layout_width="match_parent"
+            android:layout_height="200dp" />
+
+        </FrameLayout>
+
+    </androidx.appcompat.widget.Toolbar>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/border_circle"
+        android:gravity="center">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="총세트 : "
+            android:textSize="30sp"
+            android:textColor="@color/black"/>
+        <TextView
+            android:id="@+id/finish_set"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textSize="30sp"
+            android:textColor="@color/black"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="회"
+            android:textSize="30sp"
+            android:textColor="@color/black"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="시간 : "
+            android:textSize="30sp"
+            android:textColor="@color/black"/>
+        <TextView
+            android:id="@+id/finish_time_min"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textSize="30sp"
+            android:textColor="@color/black"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="분"
+            android:textSize="30sp"
+            android:textColor="@color/black"/>
+        <TextView
+            android:id="@+id/finish_time_sec"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textSize="30sp"
+            android:textColor="@color/black"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="초"
+            android:textSize="30sp"
+            android:textColor="@color/black"/>
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+    <Button
+        android:id="@+id/finish_backhome"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="홈"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        android:background="@drawable/border_circle"
+        android:layout_marginTop="100dp"/>
+    <Button
+        android:id="@+id/finish_record"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="기록보기"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        android:background="@drawable/border_circle"
+        android:layout_marginTop="20dp" />
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

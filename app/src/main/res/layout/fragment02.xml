@@ -1,0 +1,554 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="20dp">
+
+        <TextView
+            android:id="@+id/bokguen"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="복근"
+            android:textSize="20sp"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:layout_gravity="center_horizontal"
+            android:padding="10dp"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/border_circle"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/frag02_1_1"
+                            android:layout_width="match_parent"
+                            android:layout_height="200dp"
+                            android:onClick="onImageClick" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="플랭크"
+                            android:textColor="@color/black"
+                            android:textSize="20sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/frag02_1_2"
+                            android:layout_width="match_parent"
+                            android:layout_height="200dp"
+                            android:onClick="onImageClick" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="크런치"
+                            android:textColor="@color/black"
+                            android:textSize="20sp" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/frag02_1_3"
+                            android:layout_width="match_parent"
+                            android:layout_height="200dp"
+                            android:onClick="onImageClick" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="마운틴클라이머"
+                            android:textColor="@color/black"
+                            android:textSize="20sp" />
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/frag02_1_4"
+                            android:layout_width="match_parent"
+                            android:layout_height="200dp"
+                            android:onClick="onImageClick" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="바이시클메뉴버"
+                            android:textColor="@color/black"
+                            android:textSize="20sp" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/chest"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="50dp"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="가슴"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:background="@drawable/border_circle"
+        android:layout_marginTop="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_marginRight="10dp">
+
+                    <ImageView
+                        android:id="@+id/frag02_2_1"
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:onClick="onImageClick"
+                        android:background="@drawable/border_circle2"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="팔굽혀펴기"
+                        android:textSize="20sp"
+                        android:textColor="@color/black"
+                        android:gravity="center"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/frag02_2_2"
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:onClick="onImageClick"
+                        android:background="@drawable/border_circle2"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="싱글레그푸쉬업"
+                        android:textSize="20sp"
+                        android:textColor="@color/black"
+                        android:gravity="center"/>
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_marginTop="15dp">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:orientation="vertical">
+                    <ImageView
+                        android:id="@+id/frag02_2_3"
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:onClick="onImageClick"
+                        android:background="@drawable/border_circle2"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="인클라인푸쉬업"
+                        android:textSize="20sp"
+                        android:textColor="@color/black"
+                        android:gravity="center"/>
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <ImageView
+                        android:id="@+id/frag02_2_4"
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:onClick="onImageClick"
+                        android:background="@drawable/border_circle2"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="디클라인푸쉬업"
+                        android:textSize="20sp"
+                        android:textColor="@color/black"
+                        android:gravity="center"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/arm"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:gravity="center"
+            android:text="팔"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:layout_gravity="center_horizontal"
+            android:padding="10dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:background="@drawable/border_circle"
+        android:layout_marginTop="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_marginRight="10dp">
+
+                    <ImageView
+                        android:id="@+id/frag02_3_1"
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:onClick="onImageClick"
+                        android:background="@drawable/border_circle2"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="라잉익스텐션"
+                        android:textSize="20sp"
+                        android:textColor="@color/black"
+                        android:gravity="center"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/frag02_3_2"
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:onClick="onImageClick"
+                        android:background="@drawable/border_circle2"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="킥백"
+                        android:textSize="20sp"
+                        android:textColor="@color/black"
+                        android:gravity="center"/>
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_marginTop="15dp">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:orientation="vertical">
+                    <ImageView
+                        android:id="@+id/frag02_3_3"
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:onClick="onImageClick"
+                        android:background="@drawable/border_circle2"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="딥스"
+                        android:textSize="20sp"
+                        android:textColor="@color/black"
+                        android:gravity="center"/>
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <ImageView
+                        android:id="@+id/frag02_3_4"
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:onClick="onImageClick"
+                        android:background="@drawable/border_circle2"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="덤벨컬"
+                        android:textSize="20sp"
+                        android:textColor="@color/black"
+                        android:gravity="center"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+        <TextView
+            android:id="@+id/leg"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="다리"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:layout_marginTop="50dp"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:padding="10dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:background="@drawable/border_circle"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="50dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_marginRight="10dp">
+
+                    <ImageView
+                        android:id="@+id/frag02_4_1"
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:onClick="onImageClick"
+                        android:background="@drawable/border_circle2"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="스쿼트"
+                        android:textSize="20sp"
+                        android:textColor="@color/black"
+                        android:gravity="center"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/frag02_4_2"
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:onClick="onImageClick"
+                        android:background="@drawable/border_circle2"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="런지"
+                        android:textSize="20sp"
+                        android:textColor="@color/black"
+                        android:gravity="center"/>
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_marginTop="15dp">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:orientation="vertical">
+                    <ImageView
+                        android:id="@+id/frag02_4_3"
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:onClick="onImageClick"
+                        android:background="@drawable/border_circle2"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="측면운동"
+                        android:textSize="20sp"
+                        android:textColor="@color/black"
+                        android:gravity="center"/>
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <ImageView
+                        android:id="@+id/frag02_4_4"
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:onClick="onImageClick"
+                        android:background="@drawable/border_circle2"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="사이드레그레이즈"
+                        android:textSize="20sp"
+                        android:textColor="@color/black"
+                        android:gravity="center"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+    </LinearLayout>
+
+
+</androidx.core.widget.NestedScrollView>

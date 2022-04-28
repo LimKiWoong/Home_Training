@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".MainActivity">
+
+    coordinatorlayout : floatactionbutton이나 다른것들을포함해서 같이 상호작용하게해주는역할
+    API가 아닌 support design widget이다.
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+    //layout_behavior 이부분 중요
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="true">
+
+        <com.google.android.material.appbar.CollapsingToolbarLayout
+            android:id="@+id/collaping"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:fitsSystemWindows="true"
+            android:minHeight="?attr/actionBarSize"
+            app:contentScrim="#FFC107"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed">
+
+            collapsingtoolbarlayout : framelayout을 상속받은 layout으로 toolbar를 애니메이션을 통해 확장해주는용도로사용
+            app:layout_scrollFlags 이부분 scroll 앞에 | 이거안붙여서 3시간동안 해멤 시바거ㅓㅓㅓㅓㅓㅓㅓㅓㅓㅓ
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fitsSystemWindows="true"
+                app:layout_collapseMode="pin"
+                android:src="@drawable/ic_main_picture1835"
+                android:scaleType="centerCrop"/>
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:layout_collapseMode="pin" />
+
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tablayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFC107"
+            app:tabGravity="fill"
+            app:tabIndicatorColor="#111211"
+            app:tabIndicatorHeight="5dp"
+            app:tabMode="fixed"
+            app:tabTextAppearance="@style/tab_text"
+            app:tabSelectedTextColor="@color/black"
+            app:tabTextColor="@color/white" />
+
+        tabmode='fill':모든탭을한번에표시 'scrollable' : 일부탭만표시,나머지스크롤
+        tabgravity='fill' : 너비를모두같게표시 'center' : 가운데 정렬하여표시
+        tabindicator : 현재선택된탭에대한 색 지정
+        tabtextcolor : 탭에적용할 기본 텍스트 색 지정
+        tabselectedTextColor : 현재선택된 탭의 텍스트 색 지정
+
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+<!--    <com.google.android.material.floatingactionbutton.FloatingActionButton-->
+<!--        android:id="@+id/floating"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_gravity="bottom|end"-->
+<!--        android:layout_margin="16dp"-->
+<!--        app:srcCompat="@drawable/ic_up_arrow"-->
+<!--        android:backgroundTint="@color/white"-->
+<!--        android:background="@color/black"-->
+<!--        app:fabSize="normal"-->
+<!--        app:borderWidth="0dp"/>-->
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
+

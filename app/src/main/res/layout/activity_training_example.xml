@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".training_example"
+    android:background="@drawable/popup_bmi_title">
+
+    <TextView
+        android:id="@+id/training_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="플랭크"
+        android:textSize="40sp"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:background="@drawable/training_example"/>
+<androidx.core.widget.NestedScrollView
+    android:layout_width="match_parent"
+    android:layout_height="300dp">
+    <TextView
+        android:id="@+id/training_example_text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:text="1. 엎드린 자세에서 팔뚝으로 중심을 잡고 다리는 약간 벌린 상태로 일자를 유지한다. 몸은 전체에 걸쳐 일자상태를 유지한다.\n2. 팔꿈치와 어깨는 일자를 유지한다. \n3. 복부에 힘을 주고 몸을 앞으로 들어 올린다. 수축을 몇 초간 유지한다. 턱은 약간 잡아당긴다. 운동을 실시하는 동안 복근을 계속 수축하게 한다. 의식적으로 힘을 주면서 복부의 모든 근육에 대해 집중하면서 운동하는 것이 매우 중요하다. 그것과 동시에 둔부에 힘을 주고 발가락을 바닥에 지지대 삼아 뒤꿈치를 밀어 주면서 하체 전체를 뒤로 밀어내는 감각으로 뻗으면 엉덩이도 자연스럽게 내려오고 어깨와 팔에 하중이 경감된다. 고개는 너무 떨구는 일이 없도록 한다. \n4. 이 자세를 최소 15초 동안 유지한다."
+        android:textSize="20sp"/>
+</androidx.core.widget.NestedScrollView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/example_ok"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/black"
+            android:text="확인"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:onClick="example_ok"/>
+    </LinearLayout>
+
+
+</LinearLayout>

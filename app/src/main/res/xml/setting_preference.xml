@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="운동옵션">
+
+        <ListPreference
+            android:entries="@array/breaktime_entries"
+            android:entryValues="@array/breaktime_values"
+            android:key="breaktime_value"
+            android:title="휴식 시간"
+            android:icon="@drawable/ic_breaktime"
+            android:defaultValue="20"/>
+
+        <ListPreference
+            android:entries="@array/ready_entries"
+            android:entryValues="@array/ready_values"
+            android:key="ready_value"
+            android:title="준비 시간"
+            android:icon="@drawable/ic_countdown"
+            android:defaultValue="5"/>
+
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
